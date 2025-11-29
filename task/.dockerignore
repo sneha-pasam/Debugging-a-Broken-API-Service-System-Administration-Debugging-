@@ -1,0 +1,5 @@
+solution.sh
+task.yaml
+tests/
+*.pyc
+__pycache__/

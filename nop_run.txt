@@ -1,0 +1,6 @@
+NOP_RUN
+Agent: nop
+Result: FAIL
+Details:
+- NOP agent produced no fixes; tests failed.
+NOP_RESULT: FAIL (0% passed)
