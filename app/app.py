@@ -1,3 +1,9 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # Load variables from .env
+
+SECRET_KEY = os.getenv("SECRET_KEY")
 from flask import Flask, jsonify, request
 import os
 
