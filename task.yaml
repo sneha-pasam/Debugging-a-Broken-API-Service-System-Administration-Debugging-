@@ -1,0 +1,18 @@
+instruction: |
+  The API service in this task starts but returns 500 for GET /health and fails unit tests.
+  Your goal is to diagnose the containerized Flask service, fix the problem(s) without modifying solution.sh,
+  and make sure the provided tests pass.
+
+  Steps the agent should perform (non-exhaustive):
+  - Inspect container logs and service status
+  - Identify missing/pinned dependency issues
+  - Fix the broken Flask app configuration and environment variable usage
+  - Rebuild and restart the service via docker-compose
+  - Run the test suite and ensure all tests pass
+
+author_email: snehapasam63@gmail.com
+difficulty: hard
+tags: [api, debugging, docker, linux]
+max_agent_timeout_sec: 600
+max_test_timeout_sec: 60
+id: debug-broken-api
