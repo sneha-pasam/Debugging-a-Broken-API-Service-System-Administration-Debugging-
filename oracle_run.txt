@@ -1,0 +1,7 @@
+ORACLE_RUN
+Agent: oracle
+Result: PASS
+Details:
+- All tests passed (6/6).
+- /health returned 200 with secret_present: true.
+ORACLE_PASS: 100%
